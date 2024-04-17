@@ -1,0 +1,183 @@
+
+
+/*Sirve para aplicarlo en todos los elementos*/
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+/*Para todo lo que este en el nav*/
+nav{
+    background-color: #ffffff;
+    width: 100%;
+    float:left;
+    font-size: 1px;
+    
+}
+/*Para la lista ul dentro del nav*/
+nav ul{
+
+    list-style: none; /* Eliminamos la viñeta*/
+    overflow: hidden;
+    
+}
+
+/*Para la lista il dentro del ul que esta en el nav*/
+nav ul li{
+
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    
+}
+
+/*Para la lista il dentro del ul que esta en el nav*/
+nav ul li a {
+
+    display: block; /*Lo convertimos en bloque para poder añadir margenes */
+    padding: 20px;
+    color: #0e0057;
+    text-decoration: none;
+    border-bottom: 4px solid transparent;
+    
+}
+
+/*Sirve para cuando pases el cursor por el menu seleccione donde vayas pasando*/
+nav ul li a:hover{
+
+    border-bottom-color: rgb(1, 9, 92);
+    
+}
+
+/*Es un class del logo del header*/
+.logoCabecera{
+
+    display: inline;
+    width: 95px;
+    height: 95px;
+    margin-left: 200px;
+
+}
+
+/*Un class del titulo del header*/
+.tituloWeb{
+    position: relative;
+    top: -35px;
+    display: inline;
+    margin-left: 180px;
+    
+}
+
+/*para el header*/
+header{
+
+    
+    background-color: rgb(8, 18, 65);
+    color: #fff;
+    display:block;
+}
+
+/*Para el footer*/
+footer{
+    text-align: center;
+    display:block;
+    background-color: rgb(8, 18, 65);/*Para el color del fondo*/
+    color: #fff;
+}
+
+/*Un class*/
+.ofertas{
+
+    font-size: 40px;
+    text-align: center;
+    color: #0e0057;
+}
+
+/*A partid de aqui voy a comentar los mas raros para que no se haga tan repetitivo*/
+
+.video{
+
+    text-align: center;
+    
+
+}
+
+.textovideo{
+    text-align: center;
+    color: #0e0057;
+    justify-content: center;
+    overflow: hidden; /*Sirve para desbordar el elemento*/
+}
+
+.destino{
+    border: 1px solid #ccc;
+    border-radius: 10px; /*Es el radio del borde*/
+    margin-bottom: 25px; /*Sirve para redondear el boton*/
+    padding: 50px; 
+    background-color: #fff;
+}
+
+.destinoss{
+    font-family: Arial, sans-serif; /*Sirve para cambiar el tipo de letra*/
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /*Es la sombra de la caja*/
+}
+.tipo-barco {
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.Tipos{
+
+    color: #0e0057;
+    text-align: center;
+}
+
+.tabla{
+
+    width: 1500px;
+    height: 800px;
+    text-align: center;
+    border: #0e0057;
+    margin-left: 100px;
+    font-size: 30px;
+    background-color:lightblue;
+    
+}
+
+.precioss{
+
+    color: #0e0057;
+    font-size: 70px;
+}
+
+div a{
+
+    color:#0e0057;
+    text-decoration: none; /*Sirve para quitar el subrayado del enlace*/
+    font-size: 50px;
+}
+
+.preciostabla{
+
+    color: green;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.footercontactos{
+
+    margin-top: 395px; /*Es el margen de arriba*/
+}
